@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.dropzone {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 50vw;
+  height: 30vh;
+  border: 3px dashed #999;
+  border-radius: 20px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.red {
+  border-color: red;
+}
