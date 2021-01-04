@@ -40,6 +40,7 @@ const readFile = (file) => {
     const reader = new FileReader();
     reader.onload = (result) => {
       resolve({ name: file.name, image: reader.result });
+      alert(file)
       console.log(file);
     };
     reader.readAsDataURL(file);
