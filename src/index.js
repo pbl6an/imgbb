@@ -48,7 +48,7 @@ const readFile = (file) => {
 
 const uploadFile = (file) => {
   const url =
-    "https://api.imgbb.com/1/upload?key=8c1a2d247706ccb1bd7dd23976cc3006";
+    "https://api.imgbb.com/1/upload?key=33612f7751537f4f27c5253f56edbf16";
 
   let xhr = new XMLHttpRequest();
 
